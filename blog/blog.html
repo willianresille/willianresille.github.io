@@ -22,14 +22,10 @@ permalink: /blog/
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                      <h1>site.baseurl:  {{site.baseurl}}</h1>
-                      <h1>site.url: {{site.url}}</h1>
-                      <h1>post.url: {{post.url}}</h1>
+              
                         <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
                             {{ post.title }}
-                            {{ post.url }}
-                            {{ site.url }}
-                            {{ site.baseurl }}
+
                         </a>
                         <div class="vote-info">
                         {% if site.changyan %}
