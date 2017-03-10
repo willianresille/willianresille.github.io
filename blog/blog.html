@@ -27,9 +27,9 @@ permalink: /blog/
                       <h1>post.url: {{post.url}}</h1>
                         <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
                             {{ post.title }}
-                            {{post.url}}
-                            {{site.url}}
-                            {{site.baseurl}}
+                            {{ post.url }}
+                            {{ site.url }}
+                            {{ site.baseurl }}
                         </a>
                         <div class="vote-info">
                         {% if site.changyan %}
